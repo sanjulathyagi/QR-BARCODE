@@ -19,13 +19,18 @@
             </thead>
 
             <tbody>
+
+                @foreach ($products as $product)
                 <tr>
-                    <td>1</td>
-                    <td>Title</td>
-                    <td>Price</td>
-                    <td>Barcode</td>
-                    <td>text</td>
+                    <td>{{ $product->id }}</td>
+                    <td>{{ $product->Title }}</td>
+                    <td>{{ $product->Price }}</td>
+                    <td>{{ $product->Barcode }}</td>
+                    <td>{{ $product->description }}</td>
                 </tr>
+
+                @endforeach
+
             </tbody>
 
         </table>

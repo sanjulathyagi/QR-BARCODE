@@ -25,7 +25,7 @@
                     <td>{{ $product->id }}</td>
                     <td>{{ $product->Title }}</td>
                     <td>{{ $product->Price }}</td>
-                    <td>{{ $product->Barcode }}</td>
+                    <td>{{ $product->product_code }}</td>
                     <td>{{ $product->description }}</td>
                 </tr>
 

@@ -23,8 +23,8 @@
                 @foreach ($products as $product)
                 <tr>
                     <td>{{ $product->id }}</td>
-                    <td>{{ $product->Title }}</td>
-                    <td>{{ $product->Price }}</td>
+                    <td>{{ $product->title }}</td>
+                    <td>{{ $product->price }}</td>
                     <td>{{ $product->product_code }}</td>
                     <td>{{ $product->description }}</td>
                 </tr>

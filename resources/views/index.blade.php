@@ -25,7 +25,7 @@
                     <td>{{ $product->id }}</td>
                     <td>{{ $product->title }}</td>
                     <td>{{ $product->price }}</td>
-                    <td>{{ $product->product_code }}</td>
+                    <td>{ !! DNS2D::GETBarcodeHTML("$product->product_code", 'QRCODE')!! }</td>
                     <td>{{ $product->description }}</td>
                 </tr>
 

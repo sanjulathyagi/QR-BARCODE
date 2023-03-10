@@ -21,14 +21,14 @@
             <tbody>
 
                 @foreach ($products as $product)
-                {{-- <tr>
+                <tr>
                     <td>{{ $product->id }}</td>
                     <td>{{ $product->title }}</td>
                     <td>{{ $product->price }}</td>
                     <td>{!! DNS1D::GETBarcodeHTML("$product->product_code",'UPCA',2,50,'red') !!}
                     P - {{ $product->product_code }}</td>
                     <td>{{ $product->description }}</td>
-                </tr> --}}
+                </tr>
 
                 @endforeach
 
